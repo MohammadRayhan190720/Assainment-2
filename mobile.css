@@ -62,6 +62,15 @@
 .product-card{
   width: fit-content;
 }
+.product-datails{
+  gap: 100px;
+  padding: 10px 0 0 10px;
+}
+.add-button-prize{
+  
+  padding: 10px 0 0 10px;
+  gap:150px ;
+}
 
 
 /* product section ends hare */
