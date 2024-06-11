@@ -54,6 +54,11 @@
 .products-container{
   grid-template-columns: auto;
 }
+.product-image img{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
 .product-card{
   width: fit-content;
 }
@@ -63,6 +68,10 @@
 /* service section start hare */
 .service-container{
   flex-direction: column;
+}
+.service-card{
+  height: 350px;
+  width: 350px;
 }
 
 
