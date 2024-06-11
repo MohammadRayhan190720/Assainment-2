@@ -1,0 +1,180 @@
+/* nav section start hare */
+@media screen and  (max-width: 768px ) {
+  .nav-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  /* nav section ends hare */
+/* banner section start hare */  
+#banner-section{
+  background-image: none;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-banner-section{
+  width: 100%;
+}
+.delivary-option{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.banner-title h2{
+  font-size:  60px;
+  /* text-align: center; */
+  }
+  .banner-description{
+    padding-top: 40px;
+    font-size: 15px;
+  }
+  .order-button-container{
+    flex-direction: column;
+  }
+  .btn{
+    width: 100%;
+  }
+  .order-process-container{
+    justify-content: center;
+  }
+
+.right-banner-section{
+  width: 100%;
+  grid-template-columns: auto;
+}
+
+/* banner section ends hare */  
+/* schedule section start hare */
+.schedule-section-container{
+  flex-direction: column;
+}
+/* schedule section ends hare */
+/* product section start hare */
+.products-container{
+  grid-template-columns: auto;
+}
+.product-card{
+  width: fit-content;
+}
+
+
+/* product section ends hare */
+/* service section start hare */
+.service-container{
+  flex-direction: column;
+}
+
+
+
+/* service section ends hare */
+/* customar review section start hare */
+.customar-review-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.left-section{
+  width: 100%;
+}
+.right-section{
+  width: 100%;
+}
+.right-section img{
+  width: 350px;
+  height: 300px;
+}
+
+
+/* customar review section ends hare */
+/* newsletter section start hare */
+#newaletter-section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newaletter-image{
+  width: 100%;
+  padding-left: 20px;
+}
+.newsletter-description{
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* newsletter section ends hare */
+/* footer section start hare */
+.footer-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-links{
+  width: 100%;
+}
+.opening-time{
+  width: 100%;
+}
+.user-links{
+  width: 100%;
+}
+.contact-us{
+  width: 100%;
+}
+
+
+/* footer section ends hare */
+
+}
+
+@media screen and (max-width: 992px){
+.products-container{
+  grid-template-columns: auto;
+  gap: 10px;
+}
+.service-container{
+  flex-direction: column;
+}
+.customar-review-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.left-section{
+  width: 100%;
+}
+.right-section{
+  width: 100%;
+}
+.right-section img{
+  width: 350px;
+  height: 300px;
+}
+/* newsletter section start hare */
+#newaletter-section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newaletter-image{
+  width: 100%;
+  padding-left: 20px;
+}
+.newsletter-description{
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* newsletter section ends hare */
+
+
+  
+}
+
+
